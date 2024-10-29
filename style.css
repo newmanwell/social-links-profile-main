@@ -8,19 +8,44 @@ main {
 }
 
 .card {
+    font-family: "Inter";
     color: white;
+    background-color: rgb(29, 29, 29);
     text-align: center;
     display: inline-block;
     align-items: center;
     justify-content: center;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .links a {
     display: block;
+    background-color: rgb(77, 76, 76);
+    color: white;
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-.links {
-    
+.links a:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+a:hover {
+    color: black;
 }
 
 
