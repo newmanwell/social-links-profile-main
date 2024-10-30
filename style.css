@@ -48,23 +48,16 @@ a:hover {
     color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution { 
-    font-size: 11px; 
+    font-size: 14px; 
+    color: azure;
     text-align: center;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.attribution p {
+    margin-bottom: 3px;
 }
